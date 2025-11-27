@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\bin\Debug\Taller Uno CSharp.exe.config
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\bin\Debug\Taller Uno CSharp.exe
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\bin\Debug\Taller Uno CSharp.pdb
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\obj\Debug\Taller Uno CSharp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\obj\Debug\Taller Uno CSharp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\obj\Debug\Taller Uno CSharp.exe
+C:\Users\User\source\repos\C# SELV\Taller Uno CSharp\obj\Debug\Taller Uno CSharp.pdb

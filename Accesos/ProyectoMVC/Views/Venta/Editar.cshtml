@@ -1,0 +1,27 @@
+﻿@model CRUD_TRABAJO.Models.Venta
+
+<h2>Editar Venta</h2>
+
+<form asp-action="Editar">
+
+ <input type="hidden" asp-for="VentaId" />
+
+ <div class="form-group">
+  <label>Cliente</label>
+  <select asp-for="ClienteId" asp-items="ViewBag.Clientes" class="form-control"></select>
+ </div>
+
+ <div class="form-group">
+  <label>Producto</label>
+  <select asp-for="ProductoId" asp-items="ViewBag.Productos" class="form-control"></select>
+ </div>
+
+ <div class="form-group">
+  <label>Fecha</label>
+  <input asp-for="Fecha" class="form-control" type="date" />
+ </div>
+
+ <button class="btn btn-primary">Guardar cambios</button>
+ <a asp-action="Index" class="btn btn-secondary">Volver</a>
+
+</form>

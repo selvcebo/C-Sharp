@@ -1,0 +1,18 @@
+﻿@model CRUD_TRABAJO.Models.Cliente
+
+<h2>Eliminar Cliente</h2>
+
+<p>¿Seguro que quiere eliminar este cliente?</p>
+
+<div>
+ <strong>Nombre:</strong> @Model.Nombre
+</div>
+
+<form asp-action="Eliminar">
+
+ <input type="hidden" asp-for="ClienteId" />
+
+ <button class="btn btn-danger">Eliminar</button>
+ <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+
+</form>

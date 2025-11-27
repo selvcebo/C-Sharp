@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\controllers\\cursoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\migrations\\20251119181256_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\migrations\\20251119181256_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\models\\sistemaescolarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\models\\sistemaescolarcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\sistema_escolar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\sistema_escolar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|c:\\users\\user\\source\\repos\\sistema_escolar\\sistema_escolar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E47A207D-BC1C-44EC-86E9-F10C28769808}|Sistema_escolar\\Sistema_escolar.csproj|solutionrelative:sistema_escolar\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Sistema_escolar\\Models\\ErrorViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:44:09.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Sistema_escolar\\Views\\Shared\\_Layout.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-18T19:38:05.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Program.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Program.cs",
+              "RelativeToolTip": "Sistema_escolar\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:52:53.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "Sistema_escolar\\Controllers\\EstudiantesController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:44:33.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CursoesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Controllers\\CursoesController.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Controllers\\CursoesController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Controllers\\CursoesController.cs",
+              "RelativeToolTip": "Sistema_escolar\\Controllers\\CursoesController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:44:23.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatriculasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Controllers\\MatriculasController.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Controllers\\MatriculasController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Controllers\\MatriculasController.cs",
+              "RelativeToolTip": "Sistema_escolar\\Controllers\\MatriculasController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:48:59.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251119181256_inicial.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Migrations\\20251119181256_inicial.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Migrations\\20251119181256_inicial.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Migrations\\20251119181256_inicial.cs",
+              "RelativeToolTip": "Sistema_escolar\\Migrations\\20251119181256_inicial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:12:57.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Sistema_escolar\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Sistema_escolar\\ScaffoldingReadMe.txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-19T18:08:25.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sistema_escolar",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Sistema_escolar.csproj",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Sistema_escolar.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Sistema_escolar.csproj",
+              "RelativeToolTip": "Sistema_escolar\\Sistema_escolar.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T17:57:09.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Models\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\Estudiante.cs",
+              "RelativeToolTip": "Sistema_escolar\\Models\\Estudiante.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:44:10.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SistemaEscolarContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\SistemaEscolarContext.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Models\\SistemaEscolarContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\SistemaEscolarContext.cs",
+              "RelativeToolTip": "Sistema_escolar\\Models\\SistemaEscolarContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:54:01.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "Sistema_escolar\\Models\\Curso.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\Models\\Curso.cs",
+              "RelativeToolTip": "Sistema_escolar\\Models\\Curso.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:44:06.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\appsettings.json",
+              "RelativeDocumentMoniker": "Sistema_escolar\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Sistema_escolar\\Sistema_escolar\\appsettings.json",
+              "RelativeToolTip": "Sistema_escolar\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-18T19:52:39.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

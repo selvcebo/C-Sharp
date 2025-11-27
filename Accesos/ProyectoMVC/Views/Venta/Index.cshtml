@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CRUD_TRABAJO.Models.Venta>
+
+<h2>Listado de Ventas</h2>
+
+<p>
+ <a asp-action="Crear" class="btn btn-primary">Registrar Venta</a>
+</p>
+
+<table class="table table-bordered table-striped">
+ <thead>
+  <tr>
+   <th>Fecha</th>
+   <th>Cliente</th>
+   <th>Producto</th>
+   <th></th>
+  </tr>
+ </thead>
+ <tbody>
+  @foreach (var v in Model)
+  {
+   <tr>
+    <td>@v.Fecha.ToShortDateString()</td>
+    <td>@v.Cliente?.Nombre</td>
+    <td>@v.Producto?.Nombre</td>
+    <td>
+     <a asp-action="Editar" asp-route-id="@v.VentaId" class="btn btn-warning">Editar</a>
+     <a asp-action="Eliminar" asp-route-id="@v.VentaId" class="btn btn-danger">Eliminar</a>
+    </td>
+   </tr>
+  }
+ </tbody>
+</table>

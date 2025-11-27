@@ -1,0 +1,18 @@
+﻿@model CRUD_TRABAJO.Models.Venta
+
+<h2>Eliminar Venta</h2>
+
+<p>¿Seguro que desea eliminar esta venta?</p>
+
+<div><strong>Cliente:</strong> @Model.Cliente?.Nombre</div>
+<div><strong>Producto:</strong> @Model.Producto?.Nombre</div>
+<div><strong>Fecha:</strong> @Model.Fecha.ToShortDateString()</div>
+
+<form asp-action="Eliminar">
+
+ <input type="hidden" asp-for="VentaId" />
+
+ <button class="btn btn-danger">Eliminar</button>
+ <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+
+</form>

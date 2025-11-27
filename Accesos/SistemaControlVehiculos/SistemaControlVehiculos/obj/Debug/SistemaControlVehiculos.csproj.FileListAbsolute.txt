@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\bin\Debug\SistemaControlVehiculos.exe.config
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\bin\Debug\SistemaControlVehiculos.exe
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\bin\Debug\SistemaControlVehiculos.pdb
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\obj\Debug\SistemaControlVehiculos.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\obj\Debug\SistemaControlVehiculos.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\obj\Debug\SistemaControlVehiculos.exe
+C:\Users\User\source\repos\3147910-Nicol\Accesos\SistemaControlVehiculos\SistemaControlVehiculos\obj\Debug\SistemaControlVehiculos.pdb
