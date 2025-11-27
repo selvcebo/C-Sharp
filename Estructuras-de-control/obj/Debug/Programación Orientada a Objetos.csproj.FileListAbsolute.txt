@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\bin\Debug\Programación Orientada a Objetos.exe.config
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\bin\Debug\Programación Orientada a Objetos.exe
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\bin\Debug\Programación Orientada a Objetos.pdb
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\obj\Debug\Programación Orientada a Objetos.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\obj\Debug\Programación Orientada a Objetos.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\obj\Debug\Programación Orientada a Objetos.exe
+C:\Users\User\source\repos\C# SELV\Programación Orientada a Objetos\obj\Debug\Programación Orientada a Objetos.pdb
