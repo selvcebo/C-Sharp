@@ -1,0 +1,63 @@
+﻿@model TechNova.Models.DetalleVentum
+
+@{
+    ViewData["Title"] = "Eliminar Detalle de Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar Detalle</h1>
+
+<h3>¿Estás seguro que deseas eliminar este detalle de la venta?</h3>
+<div>
+    <h4>Detalle de Venta</h4>
+    <hr />
+    <dl class="row">
+        <!-- Cantidad -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cantidad)
+        </dd>
+
+        <!-- Precio unitario -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PrecioUnitario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PrecioUnitario)
+        </dd>
+
+        <!-- Subtotal -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Subtotal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subtotal)
+        </dd>
+
+        <!-- Producto -->
+        <dt class="col-sm-2">
+            Producto
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Producto.Nombre)
+        </dd>
+
+        <!-- Venta -->
+        <dt class="col-sm-2">
+            Venta
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Venta.VentaId)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="DetalleId" />
+        <!-- 🔎 Confirmación de eliminación -->
+        <input type="submit" value="Eliminar" class="btn btn-danger"
+               onclick="return confirm('¿Seguro que deseas eliminar este detalle de la venta?')" /> |
+        <a asp-action="Details" asp-route-id="@Model.VentaId" class="btn btn-secondary">Volver a la venta</a>
+    </form>
+</div>

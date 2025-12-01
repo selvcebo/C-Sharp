@@ -1,0 +1,60 @@
+﻿@model TechNova.Models.Producto
+
+@{
+    ViewData["Title"] = "Registrar Producto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Registrar Producto</h1>
+
+<h4>Producto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <!-- 🔎 Errores generales del modelo -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Nombre -->
+            <div class="form-group mb-3">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+
+            <!-- Descripción -->
+            <div class="form-group mb-3">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+
+            <!-- Precio unitario -->
+            <div class="form-group mb-3">
+                <label asp-for="PrecioUnitario" class="control-label"></label>
+                <input asp-for="PrecioUnitario" class="form-control" />
+                <span asp-validation-for="PrecioUnitario" class="text-danger"></span>
+            </div>
+
+            <!-- Stock disponible -->
+            <div class="form-group mb-3">
+                <label asp-for="StockDisponible" class="control-label"></label>
+                <input asp-for="StockDisponible" class="form-control" />
+                <span asp-validation-for="StockDisponible" class="text-danger"></span>
+            </div>
+
+            <!-- Botones -->
+            <div class="form-group">
+                <input type="submit" value="Registrar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ms-2">Volver a la lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- 🔎 Scripts de validación en cliente -->
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

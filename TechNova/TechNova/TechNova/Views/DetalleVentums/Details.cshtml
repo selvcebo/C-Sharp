@@ -1,0 +1,61 @@
+﻿@model TechNova.Models.DetalleVentum
+
+@{
+    ViewData["Title"] = "Detalles del Detalle de Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalle de Venta</h1>
+
+<div>
+    <h4>Información del detalle</h4>
+    <hr />
+    <dl class="row">
+        <!-- Cantidad -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Cantidad)
+        </dd>
+
+        <!-- Precio unitario -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PrecioUnitario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PrecioUnitario)
+        </dd>
+
+        <!-- Subtotal -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Subtotal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Subtotal)
+        </dd>
+
+        <!-- Producto -->
+        <dt class="col-sm-2">
+            Producto
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Producto.Nombre)
+        </dd>
+
+        <!-- Venta -->
+        <dt class="col-sm-2">
+            Venta
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Venta.VentaId)
+        </dd>
+    </dl>
+</div>
+
+<!-- 🔎 Acciones -->
+<div class="mt-3">
+    <a asp-action="Edit" asp-route-id="@Model?.DetalleId" class="btn btn-warning">Editar</a>
+    <a asp-action="Delete" asp-route-id="@Model?.DetalleId" class="btn btn-danger">Eliminar</a>
+    <a asp-action="Details" asp-controller="Ventas" asp-route-id="@Model.VentaId" class="btn btn-secondary">Volver a la venta</a>
+</div>
