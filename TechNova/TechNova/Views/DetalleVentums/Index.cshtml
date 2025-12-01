@@ -1,0 +1,43 @@
+﻿@model IEnumerable<TechNova.Models.DetalleVentum>
+
+@{
+    ViewData["Title"] = "Detalles de Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalles de Venta</h1>
+
+<!-- 🔎 Este botón no es necesario en el flujo maestro-detalle, pero lo dejo comentado -->
+@* <p>
+    <a asp-action="Create" class="btn btn-primary">Agregar detalle</a>
+</p> *@
+
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Cantidad)</th>
+            <th>@Html.DisplayNameFor(model => model.PrecioUnitario)</th>
+            <th>@Html.DisplayNameFor(model => model.Subtotal)</th>
+            <th>Producto</th>
+            <th>Venta</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Cantidad)</td>
+                <td>@Html.DisplayFor(modelItem => item.PrecioUnitario)</td>
+                <td>@Html.DisplayFor(modelItem => item.Subtotal)</td>
+                <td>@Html.DisplayFor(modelItem => item.Producto.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Venta.VentaId)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DetalleId" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.DetalleId" class="btn btn-sm btn-info">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.DetalleId" class="btn btn-sm btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

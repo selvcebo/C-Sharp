@@ -1,0 +1,53 @@
+﻿@model TechNova.Models.Venta
+
+@{
+    ViewData["Title"] = "Editar Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Venta</h1>
+
+<h4>Venta</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <!-- 🔎 Errores generales -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- ID oculto -->
+            <input type="hidden" asp-for="VentaId" />
+
+            <!-- Cliente -->
+            <div class="form-group mb-3">
+                <label asp-for="ClienteId" class="control-label"></label>
+                <select asp-for="ClienteId" class="form-control" asp-items="ViewBag.ClienteId"></select>
+                <span asp-validation-for="ClienteId" class="text-danger"></span>
+            </div>
+
+            <!-- Fecha (solo lectura) -->
+            <div class="form-group mb-3">
+                <label asp-for="FechaVenta" class="control-label"></label>
+                <input asp-for="FechaVenta" class="form-control" readonly />
+            </div>
+
+            <!-- Total (solo lectura) -->
+            <div class="form-group mb-3">
+                <label asp-for="TotalVenta" class="control-label"></label>
+                <input asp-for="TotalVenta" class="form-control" readonly />
+            </div>
+
+            <!-- Botones -->
+            <div class="form-group">
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ms-2">Volver a la lista</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

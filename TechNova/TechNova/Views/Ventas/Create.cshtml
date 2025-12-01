@@ -1,0 +1,38 @@
+﻿@model TechNova.Models.Venta
+
+@{
+    ViewData["Title"] = "Crear Venta";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Registrar Venta</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <!-- Formulario para crear la venta -->
+        <form asp-action="Create" method="post">
+            <!-- Errores generales -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Cliente -->
+            <div class="form-group mb-3">
+                <label asp-for="ClienteId" class="control-label">Cliente</label>
+                <select asp-for="ClienteId" class="form-control" asp-items="ViewBag.ClienteId"></select>
+                <span asp-validation-for="ClienteId" class="text-danger"></span>
+            </div>
+
+            <!-- Botones -->
+            <div class="form-group">
+                <input type="submit" value="Registrar Venta" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary ms-2">Volver</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

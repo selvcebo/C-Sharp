@@ -1,0 +1,55 @@
+﻿@model TechNova.Models.Producto
+
+@{
+    ViewData["Title"] = "Eliminar Producto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar Producto</h1>
+
+<h3>¿Estás seguro que deseas eliminar este producto?</h3>
+<div>
+    <h4>Producto</h4>
+    <hr />
+    <dl class="row">
+        <!-- Nombre -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <!-- Descripción -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <!-- Precio unitario -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PrecioUnitario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PrecioUnitario)
+        </dd>
+
+        <!-- Stock disponible -->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StockDisponible)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StockDisponible)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ProductoId" />
+        <!-- 🔎 Confirmación de eliminación -->
+        <input type="submit" value="Eliminar" class="btn btn-danger"
+               onclick="return confirm('¿Seguro que deseas eliminar este producto?')" /> |
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </form>
+</div>

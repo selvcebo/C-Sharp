@@ -1,0 +1,45 @@
+﻿@model TechNova.Models.DetalleVentum
+
+@{
+    ViewData["Title"] = "Agregar Detalle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Agregar producto a la venta</h1>
+
+<form asp-action="AddDetalle" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <!-- VentaId oculto -->
+    <div class="form-group mb-3">
+        <label asp-for="VentaId" class="control-label">ID de Venta</label>
+        <input asp-for="VentaId" type="hidden" />
+        <span asp-validation-for="VentaId" class="text-danger"></span>
+    </div>
+
+    <!-- Producto -->
+    <div class="form-group mb-3">
+        <label asp-for="ProductoId" class="control-label">Producto</label>
+        <select asp-for="ProductoId" class="form-control" asp-items="ViewBag.ProductoId"></select>
+        <span asp-validation-for="ProductoId" class="text-danger"></span>
+    </div>
+
+    <!-- Cantidad -->
+    <div class="form-group mb-3">
+        <label asp-for="Cantidad" class="control-label">Cantidad</label>
+        <input asp-for="Cantidad" class="form-control" />
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+
+    <!-- Botones -->
+    <div class="form-group">
+        <input type="submit" value="Agregar" class="btn btn-primary" />
+        <a asp-action="Details" asp-route-id="@Model.VentaId" class="btn btn-secondary">Volver a la Venta</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
